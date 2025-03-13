@@ -1,0 +1,430 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/BOM_SABOR_MINIATURA.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600&display=swap" rel="stylesheet" />
+    <link href="assets/css/estilo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/all.css" />
+    <title>RESTAURANTE BOM SABOR</title>
+  </head>
+
+  <body>
+    <!-- INICIO DA SEÇÃO DE TOPO DO SITE -->
+    <header id="cabecalho">
+      <div class="container">
+        <div class="topo">
+          <div class="item-topo"><i class="fas fa-map-marker-alt"></i> Rua A, 000, Salvador-BA</div>
+          <div class="item-topo"><i class="fas fa-phone-alt"></i> (74) 0 0000-0000</div>
+          <div class="item-topo">
+            <a target="_blank" href="https://www.instagram.com" title="Icone do Instagram"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.facebook.com.br" title="Icone do Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <!-- item-topo -->
+        </div>
+        <!-- topo -->
+      </div>
+      <!-- container -->
+    </header>
+    <!-- FINAL DA SEÇÃO TOPO -->
+
+    <!-- INICIO DO MENU DO SITE -->
+    <nav>
+      <div class="container">
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html" title="Logo restaurante Bom Sabor"><img src="assets/Images/LOGO_BOM_SABOR.png" alt="Logo Bom Sabor" /></a>
+          </div>
+          <!--logo-->
+          <a class="mobile" onclick="abrirMenu()"><i class="fas fa-bars"></i></a>
+          <!--mobile-->
+          <ul class="menu_desktop">
+            <li><a href="index.html">Home</a></li>
+            <li><a onclick="goTo('sobre')">Sobre</a></li>
+            <li><a onclick="goTo('cardapio')">Cardápio</a></li>
+            <li><a onclick="goTo('contato')">Contato</a></li>
+          </ul>
+          <!--ul-->
+          <ul class="menu_mobile">
+            <li>Home</li>
+            <li><a onclick="goTo('sobre')">Sobre</a></li>
+            <li><a onclick="goTo('cardapio')">Cardápio</a></li>
+            <li><a onclick="goTo('contato')">Contato</a></li>
+          </ul>
+          <!--ul-->
+        </div>
+        <!--menu-->
+      </div>
+      <!--container-->
+    </nav>
+    <!-- FIM DO MENU DO SITE -->
+
+    <!-- INICIO DA SEÇÃO BANNER -->
+    <section class="banner">
+      <div class="texto_banner">
+        <h1>
+          Bem vindo ao <br />
+          nosso restaurante!
+        </h1>
+        <h4>Aqui a comida é sempre feita com carinho!</h4>
+      </div>
+      <!--texto_banner-->
+    </section>
+    <!-- FIM DA SEÇÃO BANNER -->
+
+    <!--INICIO DA SEÇÃO SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="sobre_container">
+        <div class="texto_sessao">
+          <h2>SOBRE</h2>
+          <div class="texto_sobre">
+            <p>
+              A ideia da criação do restaurante " Bom Sabor " nasceu em 2007, quando dona Tereza preparava pratos típicos da Bahia para seus familiares que achavam sua comida muito saborosa, então, dona Tereza com ajuda de seus filhos montou um
+              restaurante que foi fazendo cada vez mais sucesso.
+            </p>
+          </div>
+          <!--texto_sobre-->
+        </div>
+        <!--texto_sessao-->
+      </div>
+      <!--sobre_container-->
+    </section>
+    <!-- FIM DA SEÇÃO SOBRE-->
+
+    <!-- INICIO DA SEÇÃO CARDÁPIO -->
+    <section class="cardapio" id="cardapio">
+      <div class="cardapio_container">
+        <div class="cardapio_titulo">
+          <h2>CARDÁPIO</h2>
+        </div>
+        <!--cardapio_titulo-->
+        <div class="cardapio_titulo_2">
+          <h3>PRATOS PRINCIPAIS</h3>
+        </div>
+        <!--cardapio_titulo_2-->
+        <div class="cardapio_div">
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/ACARAJÉ.jpg" alt="Acarajé" title="Acarajé" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>ACARAJÉ</h3>
+              <p>Massa de feijão-fradinho, cebola, sal e azeite de dendê.</p>
+            </div>
+            <!--descricao-->
+          </div>
+          <!--single-->
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/MOQUECA BAIANA.jpg" alt="Moqueca baiana" title="Moqueca baiana" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>MOQUECA BAIANA</h3>
+              <p>Peixe branco, alho, limão, cebola, tomate, pimentão vermelho, coentro, leite de coco, azeite de dendê e sal.</p>
+            </div>
+            <!---descricao-->
+          </div>
+          <!--single-->
+        </div>
+        <!--cardapio_div-->
+        <div class="cardapio_div">
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/VATAPÁ.jpg" alt="Vatapá" title="Vatapá" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>VATAPÁ</h3>
+              <p>Pão, camarão, fubá, gengibre, pimenta-malagueta, amendoim, cravo, castanha de caju, leite desnatado, azeite de oliva, cebola, alho e tomate.</p>
+            </div>
+            <!--descricao-->
+          </div>
+          <!--single-->
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/SARAPATEL DE BODE.png" alt="Sarapatel de Bode" title="Sarapatel de Bode" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>SARAPATEL DE BODE</h3>
+              <p>Cebola, azeite, miúdos, limão, pimentão vermelho, coentro, tomate, sal, colorau, alho e fígado de bode.</p>
+            </div>
+            <!---descricao-->
+          </div>
+          <!--single-->
+        </div>
+        <!--cardapio_div-->
+        <div class="cardapio_container">
+          <div class="cardapio_titulo_2">
+            <h3>BEBIDAS</h3>
+          </div>
+          <!--cardapio_titulo_2-->
+          <div class="cardapio_div">
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/CERVEJAS.png" alt="Caneca de cerveja" title="Caneca de cerveja" />
+              </div>
+              <!--imagem-->
+              <div class="descricao">
+                <h3>CERVEJAS</h3>
+                <p>
+                  <strong>Long neck</strong><br />(Itaipava, Original, Schin e Skol). <br /><strong>Garrafa (600ml)</strong> <br />(Original e Skol).<br />
+                  <strong>Lata (350ml)</strong> <br />(Devassa, Itaipava, Schin e Skol).
+                </p>
+              </div>
+              <!--descricao-->
+            </div>
+            <!--single-->
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/SUCOS.png" alt="Sucos de vários sabores" title="Sucos" />
+              </div>
+              <!--imagem-->
+              <div class="descricao">
+                <h3>SUCOS</h3>
+                <p>Abacaxi, goiaba, laranja e umbu.</p>
+              </div>
+              <!---descricao-->
+            </div>
+            <!--single-->
+          </div>
+          <!--cardapio_div-->
+          <div class="cardapio_div">
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/REFRIGERANTES.png" alt="Copo de refrigerante com gelo" title="Refrigerante com gelo" />
+              </div>
+              <!--imagem-->
+              <div class="descricao">
+                <h3>REFRIGERANTES</h3>
+                <p>
+                  <strong>Garrafa (1 litro)</strong><br />
+                  (Coca-cola, Pepsi e Guaraná). <br /><strong>Lata (350ml)</strong><br />
+                  (Coca-cola, Pepsi, Guaraná e Fanta).
+                </p>
+              </div>
+              <!--descricao-->
+            </div>
+            <!--single-->
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/OUTROS.jpg" alt="Taça de vinho sendo sendo preenchida" title="Vinho" />
+              </div>
+              <!--imagem-->
+              <div class="descricao">
+                <h3>OUTROS</h3>
+                <p>Água com gás, água sem gás, caipirinha e vinho.</p>
+              </div>
+              <!---descricao-->
+            </div>
+            <!--single-->
+          </div>
+          <!--cardapio_div-->
+        </div>
+        <div class="cardapio_container">
+          <div class="cardapio_titulo_2">
+            <h3>SOBREMESAS</h3>
+          </div>
+          <!--cardapio_titulo_2-->
+          <div class="cardapio_div">
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/SORVETE.jpg" alt="Sorvete" title="Sorvete" />
+              </div>
+              <!--imagem-->
+
+              <div class="descricao">
+                <h3>SORVETE</h3>
+                <p>Morango, chocolate e creme.</p>
+              </div>
+              <!--descricao-->
+            </div>
+            <!--single-->
+            <div class="single">
+              <div class="imagem">
+                <img height="100%" width="100%" src="assets/Images/SALADA DE FRUTAS.png" alt="Salada de frutas" title="Salada de frutas" />
+              </div>
+              <!--imagem-->
+              <div class="descricao">
+                <h3>SALADA DE FRUTAS</h3>
+                <p>
+                  Banana, mamão, kiwi, maçã,<br />
+                  morango e uva.
+                </p>
+              </div>
+              <!---descricao-->
+            </div>
+            <!--single-->
+          </div>
+          <!--cardapio_div-->
+        </div>
+        <!--cardapio_container-->
+        <div class="cardapio_div">
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/CANJICA.png" alt="Canjica" title="Canjica" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>CANJICA</h3>
+              <p>
+                Milho-verde debulhado, leite, leite<br />
+                condensado e canela
+              </p>
+            </div>
+            <!--descrição-->
+          </div>
+          <!--single-->
+          <div class="single">
+            <div class="imagem">
+              <img height="100%" width="100%" src="assets/Images/MOUSSE DE CHOCOLATE.jpg" alt="Mousse de Chocolate" title="Mousse de Chocolate" />
+            </div>
+            <!--imagem-->
+            <div class="descricao">
+              <h3>MOUSSE DE CHOCOLATE</h3>
+              <p>Leite de coco, chocolate 70%, gotas de baunilha e adoçante natural.</p>
+            </div>
+            <!---descricao-->
+          </div>
+          <!--single-->
+        </div>
+        <!--cardapio_div-->
+      </div>
+      <!--cardapio_container-->
+    </section>
+    <!--FINAL DA SEÇÃO CARDAPIO-->
+
+    <!--INICIO DA SEÇÃO CONTATO-->
+    <section class="contato" id="contato">
+      <div class="contato_container">
+        <h2>CONTATO</h2>
+        <div class="contato_wrapper">
+          <div class="mapa">
+            <iframe
+              width="100%"
+              height="100%"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?width=712&amp;height=320&amp;hl=en&amp;q=Alameda%20das%20Cajazeiras%20Salvador+(Restaurante%20Bom%20Sabor)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
+          <!--mapa-->
+          <div class="form_contato">
+            <form>
+              <input type="text" name="nome" placeholder="Digite seu nome completo" autocomplete="nome-completo" />
+              <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="email" />
+              <textarea placeholder="Digite sua mensagem" name="mensagem" cols="25" rows="6"></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+            <!---form-->
+          </div>
+          <!--form_contato-->
+        </div>
+        <!---contato_wrapper-->
+      </div>
+      <!--container_contato-->
+    </section>
+    <!--FINAL DA SEÇÃO CONTATO-->
+
+    <!--INICIO DA SEÇÃO RODAPÉ-->
+    <footer>
+      <div class="info">
+        <div class="info_item">
+          <h3>ACEITAMOS:</h3>
+          <div class="info_cartoes">
+            <div class="row">
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/MASTERCARD.png" alt="Logo Mastercard" />
+              </div>
+              <!--card-->
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/ELO.png" alt="Logo Elo" />
+              </div>
+              <!--card-->
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/HIPERCARD.png" alt="Logo Hipercard" />
+              </div>
+              <!--card-->
+            </div>
+            <!--row-->
+            <div class="row">
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/AMERICAN_EXPRESS.png" alt="Logo American Express" />
+              </div>
+              <!--card-->
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/PIX.png" alt="Logo Pix" />
+              </div>
+              <!--card-->
+              <div class="card">
+                <img height="100%" width="100%" src="assets/Images/VISA.png" alt="Logo Visa" />
+              </div>
+              <!--card-->
+            </div>
+            <!--row-->
+          </div>
+          <!--info_cartoes-->
+        </div>
+        <!--info-->
+        <div class="info_item align-left">
+          <h3>CONTATO</h3>
+          <p><i class="fas fa-phone-alt"></i>(00) 0000-0000 / (00) 0000-0000</p>
+          <p><i class="fas fa-envelope"></i> bomsabor@email.com</p>
+          <p><i class="fas fa-map-marker-alt"></i>Rua A, 000 <br />CEP: 41.820-470</p>
+          <p><strong> SALVADOR | BAHIA | BRASIL</strong></p>
+        </div>
+        <!--info_item-->
+        <div class="info_item">
+          <h3>HORÁRIOS</h3>
+          <div class="row d-flex flex_column">
+            <div class="horarios">
+              <h4>SEGUNDA À QUINTA</h4>
+              <p>Almoço: 12:00 às 15:00</p>
+              <p>Jantar: 19:30 às 23:00</p>
+            </div>
+            <!--horarios-->
+            <div class="horarios">
+              <h4>SÁBADO</h4>
+              <p>Almoço: 12:00 às 16:00</p>
+              <p>Jantar: 19:30 às 22:00</p>
+            </div>
+            <!--horarios-->
+          </div>
+          <!--row-->
+          <div class="row d-flex flex_column">
+            <div class="horarios">
+              <h4>SEXTA-FEIRA</h4>
+              <p>Almoço: 12:00 às 16:00</p>
+              <p>Jantar: 19:30 às 23:30</p>
+            </div>
+            <!--horarios-->
+            <div class="horarios">
+              <h4>DOMINGO</h4>
+              <p>Almoço: 12:00 às 16:00</p>
+              <p>Jantar: Não funciona</p>
+            </div>
+            <!--horarios-->
+          </div>
+          <!--row-->
+        </div>
+        <!--info_item-->
+      </div>
+      <!--info-->
+      <div class="autor">
+        <span><a href="https://github.com/LeticiaFAAGomes">Desenvolvido por Letícia Gomes</a></span>
+      </div>
+      <!--autor-->
+    </footer>
+    <!-- FIM DA SEÇÃO RODAPÉ -->
+    <a onclick="goTo('cabecalho')" id="scrollbutton" title="Botão de Scroll"><i class="fas fa-angle-double-up"></i></a>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
